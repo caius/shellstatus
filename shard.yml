@@ -1,0 +1,24 @@
+name: shellstatus
+version: 0.1.0
+
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of shellstatus
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+dependencies:
+  git:
+    github: smacker/libgit2.cr
+    version: "~> 0.1"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT
