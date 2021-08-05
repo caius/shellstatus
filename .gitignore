@@ -1,0 +1,8 @@
+# Crystal gitignore
+/.shards/
+/bin/
+/docs/
+/lib/
+*.dwarf
+
+/shellstatus
