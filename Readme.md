@@ -4,16 +4,23 @@ _NR: Work in progress, the below is aspirational in the interest of Readme Drive
 
 Tool to figure out status of things and print it out for [Caius][] to use in his shell. See [caius/zshrc][] for shell configurations and dotfiles.
 
-Features:
+## Output
 
-- Local shell / remote shell definition
-- Machine hostname
-- Current directory
-- Current git branch, dirty workspace indicator
-- Git stash information (so Caius doesn't forget he's stashed things)
-- Current Date/Time in ISO8601
-- Battery information on laptops, %age & estimated time remaining
-- Ruby version in use
+```
+➡️  Vulcan | shellstatus | main | 1 stashed | 2021-08-05 09:06:07 | 40% 🔋  (4:08) | 2.6.5
+1.  2.       3.            4.     5.          6.                    7.               8.
+```
+
+1. Local shell / remote shell definition
+2. Machine hostname
+3. Current directory
+4. Current git branch, dirty workspace indicator
+5. Git stash information (so Caius doesn't forget he's stashed things)
+6. Current Date/Time in ISO8601
+7. Battery information on laptops, %age & estimated time remaining
+8. Ruby version in use in this shell
+
+Previously this was provided through ZSH commands shelling out to other binaries to figure things out, the entrypoint of which is in <https://github.com/caius/zshrc/blob/5f451d6163f0a49eaf422886a3b4282c67b0b668/dot_zsh/functions/prompt_caius_setup>
 
 ## License
 
